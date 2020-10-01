@@ -1,0 +1,30 @@
+.card-style { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    max-width: 300px; 
+    margin: auto; 
+    text-align: center; 
+    font-family: arial;
+ } 
+
+ .color{
+    background-color: rgb(195, 66, 189);
+ }
+
+ .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(52, 54, 66, 0.966);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+   
+  .button:hover {background-color: #c106f0}
+   
+  .button:active {
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+  }
